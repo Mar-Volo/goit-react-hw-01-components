@@ -8,21 +8,21 @@ const Card = styled.div`
   align-items: center;
   justyfy-content: center;
   padding: 0 15px;
-   box-shadow: 0px 0px 2px #dee5ed;
-   border: 1px solid #e7ecf2;
+  box-shadow: 0px 0px 2px #dee5ed;
+  border: 1px solid #e7ecf2;
+  border-radius: 2px;
 `;
 
 //  User photo
 const AvatarBox = styled.div`
-width: inherit;
-display: flex;
-flex-direction: column;
-align-items: center;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justyfy-content: center;
   background-color: white-smoke;
   padding: 15px;
-  
-`
+`;
 
 const Avatar = styled.img`
   width: 200px;
@@ -53,14 +53,14 @@ const Location = styled.p`
 const Stats = styled.ul`
   display: flex;
   width: inherit;
-   align-items: center;
+  align-items: center;
   justify-content: center;
   background-color: #f3f6f9;
-//   border: 1px solid grey;
+  //   border: 1px solid grey;
 `;
 const StatsItem = styled.li`
   padding: 10px;
-width: 100px;
+  width: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,6 +88,6 @@ export {
   Stats,
   StatsItem,
   ItemLabel,
-    ItemQuant,
+  ItemQuant,
   AvatarBox,
 };
